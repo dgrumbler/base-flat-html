@@ -1,0 +1,25 @@
+/******************************************************
+	Name: Default Button Colours
+*******************************************************/
+
+.btn-outline-primary {
+	background-color: $white;
+	border-color: $DGPink;
+	color: $DGPink;
+	&:hover, &:focus {
+		opacity: 0.75;
+		background-color: $white;
+		border-color: $DGPink;
+	}
+}
+
+.btn-secondary,
+a.btn-secondary,
+a.btn-secondary:visited {
+	background-color: $DGPink;
+	color: $white;
+	border: 0px;
+	&:hover, &:focus {
+		background-color: lighten($DGPink, 10%);
+	}
+}

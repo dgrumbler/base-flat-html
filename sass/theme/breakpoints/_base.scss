@@ -1,0 +1,40 @@
+/****************************************************************
+	Theme: DG College Board
+	Viewport: Base
+	Author: Rebecca Rumble
+****************************************************************/
+body {
+	font-family: $font;
+	font-weight: 400;
+	padding-left: 80px; // compensates for the vertical nav 
+	padding-top: 20px; 
+}
+// Default Link Settings
+/**************************************/
+a, a:visited {
+	color: $DGPink;
+	&:hover, &:focus {
+		color: lighten($DGPink, 10%);
+	}
+}
+
+// Default Button Settings
+/*************************************/
+@import "buttons/base";
+
+// Header Settings
+/*************************************/
+
+	
+
+	
+// Pagination Navigation
+/************************************/
+
+
+// Home Page
+/***********************************/
+@import "homepage/base";
+
+// File Archive Page. 
+/*********************************/
