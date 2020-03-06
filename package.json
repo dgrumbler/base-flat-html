@@ -1,12 +1,12 @@
 {
   "name": "base-flat-html",
   "version": "1.0.0",
-  "description": "",
+  "description": "A basic flat html base theme",
   "main": "._gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Rebecca Rumble ",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^4.0.2",
