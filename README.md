@@ -14,5 +14,13 @@ Once it's installed all you need to do to automatically compile the SASS files a
 ```bash
 $ gulp watch
 ```
+## AutoMinify JavaScript using Gulp
+Once gulp is installed all you need to do to automatically compress and minify the scripts.js file as you make changes is to run:
+```bash
+$ gulp watch
+```
+If you've already run it for the SASS you don't need to run it again. 
 ## References:
 [Explaination](http://www.dgmyspace.dumgal.ac.uk/eportfolios/rumbler/setting-up-sass-compiler-using-gulp/)
+## ChangeLog:
+- (09/07/2020) - Added JavaScript Minify
